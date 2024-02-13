@@ -48,7 +48,7 @@ nav ul li {
 }
 
 /* Pas d'espace à gauche pour le premier élément (IMAGE LOGO)*/
-nav ul li;:first-child{
+nav ul li:first-child{
     margin-left: 0;
 }
 
