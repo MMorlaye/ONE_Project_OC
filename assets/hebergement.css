@@ -1,3 +1,4 @@
+
 /****** Hebergements ***********/
 
 .hebergements {
@@ -17,7 +18,7 @@
    margin-bottom: 10px;
    width: 260px;
    flex-wrap: wrap;
-   box-shadow: 10px;
+   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .card-txt img {
@@ -25,12 +26,8 @@
     height: 130px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
 }
-.hebergement-cards .link{
-    display: flex;
-    justify-content: space-between;
-}
+
 .hebergement-cards .card-tittle {
     margin-top: 10px;
     margin-bottom: 4px;
