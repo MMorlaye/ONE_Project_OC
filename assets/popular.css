@@ -86,5 +86,133 @@
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
-}
+
+        /* Barre de Navigation */
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+     .logo img {
+         width: 60px;
+         margin: 40px 0 10px 0;
+     }
+
+     nav ul {
+        display: flex;
+     }
+
+     nav ul li {
+        font-size: 15px;
+        margin: auto;
+        padding: 10px 52px 10px 50px;
+     }
+
+     .title {
+        font-size: 18px;
+     }
+     .title span {
+        font-size: 13px;
+     }
+
+    /* FORMULAIRE */
+
+    #button {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        border-radius: 30%;
+      }
+
+      .input_field {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .icon_1{
+        width: 18%;
+    }
+    
+     #button{
+        margin-right: 0;
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+      }
+
+      #button span:after {
+        content: "";
+      }
+
+        /* FILTRE */
+
+        .filtres {
+            flex-direction: column;
+        }
+
+        .element #icon_button {
+            margin-bottom: 20px;
+        }
+
+        /* Housing */
+        .housing_container .icon_info {
+            display: block;
+        }
+        .icon_info {
+            position: relative;
+            margin-left: 5px;
+        }
+        #info {
+            font-size: 18px;
+            position: relative;
+            top: -38px; left: 45px;
+        }
+
+        /* HEBERGEMENT */
+
+        .hebergement-cards {
+            align-items: center;
+            margin: auto;
+        }
+
+        .cards-content {
+            width: 330px;
+        }
+
+        .card-txt img {
+            width: 100%;
+            object-fit: cover;
+        }
+        /* POPULAIRES */
+
+        .populaires .populaires-cards {
+            display: block;
+        }
+
+        /* ACTIVITY */
+        .container-activity {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-activity .card-activity {
+            width: 400px;
+            height: 300px;
+        }
+
+        .container-activity .card-activity img {
+            width: 100%;
+            height: 80%;
+        }
+
+        /* FOOTER */
+
+        .footer {
+            flex-direction: column;
+        }
+        
+        .footer .element-footer {
+            width: 100%;
+        }
+    }
+
+      
