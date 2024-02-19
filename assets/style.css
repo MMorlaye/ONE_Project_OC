@@ -132,26 +132,16 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-
-/* .icon-search {
+.search {
     display: none;
-    width: 5%;
-    background-color: #0065fc;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    padding: 18px;
-    border: none;
-    border-radius: 32%;
-    font-weight: bold;
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
-} */
+}
 
 /* Styliser le filtre */
 .filtres{
     display: flex;
     margin: 40px 0 35px 0;
 }
+
 .span_filtre{
     padding: 12px;
 }
@@ -159,8 +149,8 @@ nav ul li a:hover {
 .groupe_1, .groupe_2 {
     display: flex;
     align-items: center;
-    /* margin-right: 10px; */
 }
+
 .element i {
     width: 30px;
     height: auto;

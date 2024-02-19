@@ -118,31 +118,34 @@
 
     /* FORMULAIRE */
 
-    #button {
+      #button {
         width: 40px;
         height: 40px;
-        padding: 0;
         border-radius: 30%;
-      }
-
-      .input_field {
-        width: 70%;
-        font-size: 20px;
-    }
-
-    .icon_1{
-        width: 18%;
-    }
-    
-     #button{
         margin-right: 0;
         filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
       }
 
-      #button span:after {
-        content: "";
+      #button .span {
+        visibility:hidden;
       }
 
+      .input_field {
+        width: 60%;
+        font-size: 20px;
+     }
+
+    .icon_1{
+        width: 18%;
+    }
+
+    .search {
+        display: flex;
+        padding: 2px;
+        color: white;
+      }
+      
+      
         /* FILTRE */
 
         .filtres {
@@ -153,7 +156,9 @@
             margin-bottom: 20px;
         }
 
+
         /* Housing */
+
         .housing_container .icon_info {
             display: block;
         }
@@ -167,6 +172,19 @@
             top: -38px; left: 45px;
         }
 
+
+         /* POPULAIRES */
+
+         .populaires {
+            order: -1;
+            margin-top: -15px;
+          }
+
+         .populaires .populaires-cards {
+            display: block;
+        }
+
+
         /* HEBERGEMENT */
 
         .hebergement-cards {
@@ -175,20 +193,17 @@
         }
 
         .cards-content {
-            width: 330px;
+            width: 300px;
         }
 
         .card-txt img {
             width: 100%;
             object-fit: cover;
         }
-        /* POPULAIRES */
 
-        .populaires .populaires-cards {
-            display: block;
-        }
 
         /* ACTIVITY */
+
         .container-activity {
             display: flex;
             flex-direction: column;
