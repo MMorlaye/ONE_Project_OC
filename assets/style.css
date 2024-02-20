@@ -1,4 +1,5 @@
-/****** General ***********/
+
+/***************** GENERAL *******************/
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -20,6 +21,9 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
+
 /******************** BARRE DE NAVIGATION ********************/
 header{
     display: flex;
@@ -71,7 +75,7 @@ nav ul li a:hover {
 }
 
 /* Bordure bleue en version mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
     nav ul li a:hover::after {
         content: '';
         position: absolute;
@@ -83,7 +87,9 @@ nav ul li a:hover {
     }
 }
 
-/* Styliser le paragraphe du first_container */
+
+
+/**************** STYLISER LE PARAGRAPHE DU FIRST_CONTAINER ******************/
 .title {
     margin: 40px 0 35px 0;
 }
@@ -92,7 +98,9 @@ nav ul li a:hover {
     font-weight: normal;
 }
 
-/* STYLISER LES 3 PARTIES DU FORMULAIRES */
+
+
+/********************* STYLISER LES 3 PARTIES DU FORMULAIRES *********************/
 .three_elements {
     display: flex;
     width: 100%;
@@ -136,7 +144,9 @@ nav ul li a:hover {
     display: none;
 }
 
-/* Styliser le filtre */
+
+
+/********************* STYLISER LE FILTRE *********************/
 .filtres{
     display: flex;
     margin: 40px 0 35px 0;
@@ -155,7 +165,7 @@ nav ul li a:hover {
     width: 30px;
     height: auto;
 }
-.element #icon_button{
+.element .filtre_B{
     margin-right: 15px;
     padding: 12px;
     background-color: #ffff;
@@ -164,10 +174,13 @@ nav ul li a:hover {
     font-size: 18px;
     font-weight: bold;
 }
-.element #icon_button:hover{
+.element .filtre_B:hover{
     background-color: rgba(9, 132, 227,0.2);
 }
-/* Styliser la PArtie Info */
+
+
+
+/********************* STYLISER LA PARTIE INFO *********************/
 .housing_container{
     margin: 40px 0 35px 0;
 } 
@@ -185,7 +198,10 @@ nav ul li a:hover {
     position: relative;
     left: 10px;
 }
-/* MAIN */
+
+
+
+/********************* MAIN *********************/
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -226,7 +242,9 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+
+
+/**************** HEBERGEMENTS AND POPULAIRES ****************/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;

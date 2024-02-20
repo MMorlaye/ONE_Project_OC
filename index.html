@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="assets/popular.css">
         <link rel="stylesheet" href="assets/activity.css">
         <link rel="stylesheet" href="assets/footer.css">
+        <link rel="stylesheet" href="assets/responsive.css">
     </head>
 <body>
     <div class="main-container">
@@ -24,8 +25,8 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#hébergementàMarseille">Hébergements</a></li>
+                    <li><a href="#ActviteàMarseille">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,29 +46,25 @@
             </div>
             <div class="groupe_1">
                 <div class="element">
-                    <button id="icon_button">
-                        <i class="fa-solid fa-money-bill-wave icon"></i>
-                        <a href="#">Economique</a>
+                    <button class="filtre_B">
+                        <i class="fa-solid fa-money-bill-wave icon"></i><a href="#">Economique</a>
                     </button>
                 </div>
                 <div class="element">
-                    <button id="icon_button">
-                        <i class="fa-solid fa-person icon"></i>
-                        <a href="">Familial</a>
+                    <button class="filtre_B">
+                        <i class="fa-solid fa-person icon"></i><a href="">Familial</a>
                     </button>
                 </div>
             </div>
             <div class="groupe_2">
                 <div class="element">
-                    <button id="icon_button">
-                        <i class="fa-solid fa-heart icon"></i>
-                        <a href="">Romantique</a>
+                    <button class="filtre_B">
+                        <i class="fa-solid fa-heart icon"></i><a href="">Romantique</a>
                     </button>
                 </div>
                 <div class="element">
-                    <button id="icon_button">
-                        <i class="fa-solid fa-fire icon"></i>
-                        <a href="">Nos pépites</a>
+                    <button class="filtre_B">
+                        <i class="fa-solid fa-fire icon"></i><a href="">Nos pépites</a>
                     </button>
                 </div>
             </div>   
@@ -79,9 +76,9 @@
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2>Hébergements à Marseille</h2> <br> <br>
+                    <h2 id="hébergementàMarseille">Hébergements à Marseille</h2> <br> <br>
                     <div class="hebergement-cards">
-                        <a href="">
+                        <a href="#">
                             <div class="cards-content">
                                 <div class="card-txt">
                                     <img src="images/hebergements/fred-kleber.jpg" alt="hotel du port">
@@ -96,7 +93,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="">  
+                        <a href="#">  
                             <div class="cards-content">
                                 <div class="card-txt">
                                     <img src="images/hebergements/febrian-zakaria.jpg" alt="hotel Chez Amina">
@@ -111,7 +108,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="cards-content">
                                 <div class="card-txt">
                                     <img src="images/hebergements/reisetopia.jpg" alt="Hôtel Les Mouettes">
@@ -126,7 +123,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="cards-content">
                                 <div class="card-txt">
                                    <img src="images/hebergements/annie-spratt.jpg" alt="Hôtel La Mer">
@@ -141,7 +138,7 @@
                                 </div>   
                             </div>      
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="cards-content">
                                 <div class="card-txt">
                                     <img src="images/hebergements/marcus-loke.jpg" alt="Auberge La Canebière">
@@ -156,7 +153,7 @@
                                 </div>
                             </div>                              
                         </a>
-                        <a href="">
+                        <a href="#">
                             <div class="cards-content">
                                 <div class="card-txt">
                                     <img src="images/hebergements/nicate-lee.jpg" alt="Auberge Le Panier">
@@ -171,9 +168,11 @@
                                 </div>
                             </div>
                         </a>
-                    <h3 class="title-3">
-                        <a href="">Afficher plus</a>
-                    </h3>
+                        <h3 class="title-3">
+                            <a href="">Afficher plus</a>
+                        </h3>
+                    </div>
+                    
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -244,33 +243,41 @@
         </main>
 
         <div class="activity">
-            <h2>Activités à Marseille</h2>
+            <h2 id="ActviteàMarseille">Activités à Marseille</h2>
         </div>
         <div class="container-activity">
-            <div class="card-activity">
-                <img src="images/activités/reno-laithienne.jpg" alt="Vieux Port">
-                <div class="card-txt">
-                    <h3>Vieux Port</h3>
+            <a href="#">
+                <div class="card-activity">
+                    <img src="images/activités/reno-laithienne.jpg" alt="Vieux Port">
+                    <div class="card-txt">
+                        <h3>Vieux Port</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="card-activity">
-                <img src="images/activités/paul-hermann.jpg" alt="Fort de Pomègues">
-                <div class="card-txt">
-                    <h3>Fort de Pomègues</h3>
+            </a>
+            <a href="#">
+                <div class="card-activity">
+                    <img src="images/activités/paul-hermann.jpg" alt="Fort de Pomègues">
+                    <div class="card-txt">
+                        <h3>Fort de Pomègues</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="card-activity">
-                <img src="images/activités/kilyan-sockalingum.jpg" alt="Parc Nationale des Calanques">
-                <div class="card-txt">
-                    <h3>Parc Nationale des Calanques</h3>
+            </a>
+            <a href="#">
+                <div class="card-activity">
+                    <img src="images/activités/kilyan-sockalingum.jpg" alt="Parc Nationale des Calanques">
+                    <div class="card-txt">
+                        <h3>Parc Nationale des Calanques</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="card-activity">
-                <img src="images/activités/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
-                <div class="card-txt">
-                    <h3>Notre-Dame-de-la-Garde</h3>
+            </a>
+            <a href="#">
+                <div class="card-activity">
+                    <img src="images/activités/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
+                    <div class="card-txt">
+                        <h3>Notre-Dame-de-la-Garde</h3>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <footer>
             <div class="footer">
