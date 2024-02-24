@@ -42,7 +42,7 @@
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
 
 
     /*********************  BARRE DE NAVIGATION *********************/
@@ -154,6 +154,9 @@ header {
 
     /*********************  HEBERGEMENTS *********************/
 
+    .hebergements {
+        background-color: white;
+    }
     .hebergement-cards {
         align-items: center;
         margin: auto;
