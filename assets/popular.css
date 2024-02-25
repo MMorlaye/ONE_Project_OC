@@ -13,11 +13,12 @@
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    height: 165px;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: auto;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }

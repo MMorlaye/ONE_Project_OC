@@ -9,14 +9,16 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: -10px;
 }
 
 .cards-content {
    background-color: white;
    border-radius: 20px;
-   padding: 8px;
+   padding: 10px;
    margin-bottom: 30px;
-   width: 250px;
+   width: 255px;
+   height: 233px;
    flex-wrap: wrap;
    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
@@ -28,19 +30,24 @@
     object-fit: cover;
 }
 
-.hebergement-cards .card-tittle {
+.card-tittle-1, .card-subtitle-1, .card-rating-1 {
+    position: relative;
+    left: 10px;
+}
+
+.hebergement-cards .card-tittle-1 {
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.hebergement-cards .card-subtitle {
+.hebergement-cards .card-subtitle-1 {
     margin: 0;
 }
 
-.hebergement-cards .card-rating {
+.hebergement-cards .card-rating-1 {
     margin-top: 6px;
     margin-bottom: 6px;
 }
 .title-3{
-    padding-top: 20px;
+    padding-top: 15px;
 }
