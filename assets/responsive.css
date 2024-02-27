@@ -45,79 +45,127 @@
 @media screen and (max-width: 767.98px) {
 
 
-    /*********************  BARRE DE NAVIGATION *********************/
+    body, .main-container {
+        width: 375px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
 
- .logo img {
-     width: 60px;
-     margin: 40px 0 10px 0;
- }
+            /*********************  BARRE DE NAVIGATION *********************/
 
- nav ul {
-    display: flex;
- }
+        header {
+            display: flex;
+            flex-direction: column;
+            width: 335px;
+            height: 115px;
+        }
 
- nav ul li {
-    font-size: 15px;
-    margin: auto;
-    padding: 10px 52px 10px 50px;
- }
+        .logo img {
+            width: 121.09px;
+            padding: 30px;
+            height: 79px;
+            position: relative;
+            left: 80px;
+        }
 
- .title {
-    font-size: 18px;
- }
- .title span {
-    font-size: 13px;
- }
+        nav ul {
+            display: flex;
+            position: relative;
+            left: 60px;
+        }
+
+        nav ul li {
+            font-size: 22px;
+            padding: 0 25px 0 35px;
+        }
+
+        .title {
+            width: 120%;
+            font-size: 30px;
+            margin: 80px 0 10px 25px;
+            /* padding: 20px; */
+        }
+        .title span {
+            font-size: 17px;
+        }
 
 
 
 
     /*********************  FORMULAIRE *********************/
 
-  #button {
-    width: 40px;
-    height: 40px;
-    border-radius: 30%;
-    margin-right: 0;
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
-  }
+       .three_elements {
+                position: relative;
+                top: 5px;
+                left: 30px;
+                width: 430px;
+              }
 
-  #button .span {
-    visibility:hidden;
-  }
+        #button {
+            width: 50px;
+            height: 50px;
+            border-radius: 30%;
+            margin-right: 0;
+            filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+        }
 
-  .input_field {
-    width: 60%;
-    font-size: 20px;
- }
+        #button .span {
+            visibility:hidden;
+        }
 
-.icon_1{
-    width: 18%;
-}
+        .input_field {
+            width: 90%;
+            font-size: 28px;
+        }
 
-.search {
-    display: flex;
-    padding: 2px;
-    color: white;
-  }
-  
+        .icon_1{
+            width: 50px;
+            padding: 15px;
+        }
+
+        .search {
+            display: flex;
+            padding: 5px;
+            color: white;
+        }
+        
 
   
     /******************** FILTRE ********************/
 
     .filtres {
         flex-direction: column;
+        /* margin: 35px; */
+        position: relative;
+        top: -5px;
+        left: 22px;
+    }
+
+    .span_filtre{
+        position: relative;
+        bottom: 10px;
     }
 
     .element .filtre_B {
+        width: 215px;
         margin-bottom: 20px;
+        border: 2px solid rgba(223, 230, 233);
+        border-radius: 25px;
+        font-size: 20px;
     }
 
+    .icon {
+        position: relative;
+        left: -10px;
+    }
+
+    .icon-familial, .button-familial {
+        position: relative;
+        left: -25px;
+    }
 
 
 
@@ -126,14 +174,18 @@ header {
     .housing_container .icon_info {
         display: block;
     }
+
     .icon_info {
         position: relative;
-        margin-left: 5px;
+        margin-left: 20px;
+        top: -25px;
     }
+
     #info {
+        width: 100%;
         font-size: 18px;
         position: relative;
-        top: -38px; left: 45px;
+        top: -60px; left: 60px;
     }
 
 
@@ -142,7 +194,12 @@ header {
 
      .populaires {
         order: -1;
-        margin-top: -15px;
+        width: 520px;
+        position: relative;
+        left: 0px;
+        top: -120px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
       }
 
      .populaires .populaires-cards {
@@ -156,6 +213,10 @@ header {
 
     .hebergements {
         background-color: white;
+       /* width: 450px; */
+        position: relative;
+        left: 0px;
+        top: -110px;
     }
     .hebergement-cards {
         align-items: center;
@@ -163,7 +224,7 @@ header {
     }
 
     .cards-content {
-        width: 300px;
+        width: 460px;
     }
 
     .card-txt img {
@@ -176,14 +237,25 @@ header {
 
     /*********************  ACTIVITY *********************/
 
+    #ActviteàMarseille {
+        position: relative;
+        top: -50px;
+        left: 20px;
+    }
+
     .container-activity {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
 
     .container-activity .card-activity {
-        width: 400px;
-        height: 300px;
+        width: 450px;
+        height: 270px;
+        position: relative;
+        position: relative;
+        top: -30px;
+        left: 20px;
     }
 
     .container-activity .card-activity img {
@@ -195,11 +267,17 @@ header {
 
      /*********************  FOOTER ******************** */
 
+     footer {
+       width: 490px;
+     }
     .footer {
         flex-direction: column;
+        position: relative;
+        left: 30px;
+        width: 100%;
     }
     
     .footer .element-footer {
-        width: 100%;
+        font-size: 18px;
     }
 }
