@@ -63,7 +63,7 @@
             height: 115px;
         }
 
-        .logo img {
+        .logo-Booki img {
             width: 121.09px;
             padding: 30px;
             height: 79px;
@@ -82,13 +82,13 @@
             padding: 0 25px 0 35px;
         }
 
-        .title {
+        .first-title-contenair {
             width: 120%;
             font-size: 30px;
             margin: 80px 0 10px 25px;
             /* padding: 20px; */
         }
-        .title span {
+        .first-title-contenair span {
             font-size: 17px;
         }
 
@@ -97,7 +97,7 @@
 
     /*********************  FORMULAIRE *********************/
 
-       .three_elements {
+       .search-bar {
                 position: relative;
                 top: 5px;
                 left: 30px;
@@ -121,7 +121,7 @@
             font-size: 28px;
         }
 
-        .icon_1{
+        .icon-search-bar {
             width: 50px;
             padding: 15px;
         }
