@@ -45,8 +45,8 @@
 @media screen and (max-width: 767.98px) {
 
 
-    body, .main-container {
-        width: 375px;
+    body {
+        width: 490px;
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
@@ -59,8 +59,6 @@
         header {
             display: flex;
             flex-direction: column;
-            width: 335px;
-            height: 115px;
         }
 
         .logo-Booki img {
@@ -68,28 +66,27 @@
             padding: 30px;
             height: 79px;
             position: relative;
-            left: 80px;
+            left: 25px;
         }
 
         nav ul {
             display: flex;
             position: relative;
-            left: 60px;
+            left: 10px;
         }
 
         nav ul li {
-            font-size: 22px;
+            font-size: 25px;
             padding: 0 25px 0 35px;
         }
 
         .first-title-contenair {
-            width: 120%;
-            font-size: 30px;
-            margin: 80px 0 10px 25px;
-            /* padding: 20px; */
+            /* width: 120%; */
+            font-size: 28px;
+            margin: 50px -20px 10px -20px;
         }
         .first-title-contenair span {
-            font-size: 17px;
+            font-size: 20.5px;
         }
 
 
@@ -97,12 +94,11 @@
 
     /*********************  FORMULAIRE *********************/
 
-       .search-bar {
-                position: relative;
-                top: 5px;
-                left: 30px;
-                width: 430px;
-              }
+       .search-bar {  
+            position: relative;
+            top: 5px;
+            left: -20px;
+         }
 
         #button {
             width: 50px;
@@ -117,7 +113,7 @@
         }
 
         .input_field {
-            width: 90%;
+            width: 329px;
             font-size: 28px;
         }
 
@@ -131,17 +127,16 @@
             padding: 5px;
             color: white;
         }
-        
 
-  
+
+
     /******************** FILTRE ********************/
 
     .filtres {
         flex-direction: column;
-        /* margin: 35px; */
         position: relative;
-        top: -5px;
-        left: 22px;
+        top: 15px;
+        left: -20px;
     }
 
     .span_filtre{
@@ -177,15 +172,15 @@
 
     .icon_info {
         position: relative;
-        margin-left: 20px;
-        top: -25px;
+        margin-left: -20px;
+        font-size: 30x;
     }
 
     #info {
         width: 100%;
-        font-size: 18px;
+        font-size: 20px;
         position: relative;
-        top: -60px; left: 60px;
+        top: -38px; left: 25px;
     }
 
 
@@ -194,16 +189,20 @@
 
      .populaires {
         order: -1;
-        width: 520px;
+        width: 515px;
         position: relative;
-        left: 0px;
-        top: -120px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
+        left: -50px;
+        top: -80px;
+        border-radius: 0px;
       }
 
      .populaires .populaires-cards {
         display: block;
+        width: 100%;
+    }
+
+    .section-title {
+        margin-top: 18px;
     }
 
 
@@ -213,18 +212,17 @@
 
     .hebergements {
         background-color: white;
-       /* width: 450px; */
         position: relative;
-        left: 0px;
-        top: -110px;
+        left: -50px;
+        top: -50px;
     }
     .hebergement-cards {
         align-items: center;
-        margin: auto;
+        margin-left: 5px;
     }
 
     .cards-content {
-        width: 460px;
+        width: 450px;
     }
 
     .card-txt img {
@@ -240,13 +238,13 @@
     #ActviteàMarseille {
         position: relative;
         top: -50px;
-        left: 20px;
+        left: -35px;
     }
 
     .container-activity {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin-left: 5px;
     }
 
     .container-activity .card-activity {
@@ -255,7 +253,7 @@
         position: relative;
         position: relative;
         top: -30px;
-        left: 20px;
+        left: -35px;
     }
 
     .container-activity .card-activity img {
@@ -268,16 +266,12 @@
      /*********************  FOOTER ******************** */
 
      footer {
-       width: 490px;
+       width: 515px;
+       position : sticky;
+       font-size: 18px;
+       margin: 15px -50px 0px -50px;
      }
     .footer {
         flex-direction: column;
-        position: relative;
-        left: 30px;
-        width: 100%;
-    }
-    
-    .footer .element-footer {
-        font-size: 18px;
     }
 }
