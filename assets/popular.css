@@ -1,5 +1,4 @@
-
-/********** POPULAIRES ***********/
+/****** Populaires ***********/
 .populaires {
     width: 32%;
 }
@@ -13,12 +12,11 @@
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
-    height: 165px;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: auto;
+    height: 128px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -44,7 +42,6 @@
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
 
 
 

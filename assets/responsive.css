@@ -1,12 +1,12 @@
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-
-/********** Media queries ***********/
+/****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    /**************** HEBERGEMENTS AND POPULAIRES ****************/
+    /********** HEBERGEMENT **********/
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -15,6 +15,15 @@
         width: 100%;
     }
 
+
+    /********** FILTRE **********/
+    .filters-elements {
+        display: block;
+
+    }
+
+
+    /********** POPULAIRES **********/
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -38,358 +47,212 @@
         font-size: 13px;
     }
 
-    .container-activity {
-        width: 924px;
+
+    /********** ACTVITE **********/
+
+    .card-activity{
+        height: 250px;
     }
 
-    .container-activity .card-activity {
-        width: 193.5px;
+    .card-activity img {
+        min-width: 12rem;
+        height: 76%;
     }
 
-
-    /*********************  FORMULAIRE  *********************/
-    .info-title {
-        width: 924px;
-     }
-
-    .first-title-contenair{
-        font-size: 22px;
-    }
-
-    .first-title-contenair span {
-        font-size: 16px;
-    }
-
-     .search-bar {
-        width: 377px;
-     }
-
-     .icon-search-bar {
-        width: 55px;
-    }
-
-    .input_field {
-        width: 220px;
-     }
-
-    #button {
-        width: 150px;
-    }
-
-    /******************** FILTRE ********************/
-    .filtres {
-        width: 924px;
-    }
-
-    .title-filtre .span_filtre {
-        position: relative;
-        top: -18px;
-    }
-
-    .groupe_1, .groupe_2 {
-        position: relative;
-        top: 30px;
-        left: -72px;
+    .card-activity h3 {
+        padding: 0 0 15px 15px;
+        font-size: 15px;
     }
 
 
-    /********************* HOUSING *********************/
-    .icon_info {
-        position: relative;
-        top: 15px;
-    }
-
-    #info {
-        top: 15px;
-    }
-
-
-    .container-activity .card-activity {
-        width: 193.5px;
-        height: 270px;
-    }
-
-    .container-activity .card-activity img {
+    /********** FOOTER **********/
+    .footer {
         width: 100%;
-        height: 73%;
-    }
-
-    .card-txt h3 {
-        font-size: 16px;
-        padding: 5px 3px;
-    }
-
-    /*********************  FOOTER ******************** */
-    footer {
-        width: 924px;
     }
 
     .element-footer {
-        margin-right: 100px;
-        padding: 5px;
+        width: 100%;
+        margin-right: 80px;
     }
 }
 
-
-
-
-
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
-
-
     .main-container {
-        width: 375px;
         padding: 0;
-        margin: 0;
         box-sizing: border-box;
     }
 
 
-    /*********************  BARRE DE NAVIGATION *********************/
+    /********** HEADER **********/
 
-    header {
-        display: flex;
-        flex-direction: column;
+    nav #logo{
+        margin: auto;
     }
-
-    .logo-Booki img {
-        width: 121.09px;
-        padding: 30px;
-        height: 79px;
+    .sub-nav{
+       flex-basis: 100%;
+       display: flex;
     }
-
-    nav ul {
-        display: flex;
-        max-width: 375px;
-        width: 100%;
-        margin: 2px 0 30px 0;
-    }
-
-    nav ul li {
-        font-size: 16px;
+    .sub-nav a {
+        flex-basis: 50%;
         text-align: center;
-        padding: 0 10px;
+        border-bottom: 3px solid rgba(189, 195, 199,0.3);
+    }
+    .sub-nav a:hover{
+        border-bottom-color: #0065FC;
+        border-top-color: transparent ;
     }
 
-
-
-
-    /*********************  FORMULAIRE  *********************/
-
-    .info-title {
-        width: 375px;
-    }
-
-    .first-title-contenair {
+    .first-container h1 {
         font-size: 22px;
-        width: 335px;
-        margin: 5px 0px 0px 20px;
-    }
-    .first-title-contenair span {
-        font-size: 16px;
+        padding-left: 15px;
     }
 
-    .search-bar{
-        width: 335px;
-        height: 49px;
-        border-radius: 15px;
-        margin: 40px 0px 0px 20px;
+    .first-container p {
+        padding-left: 15px;
+        font-size: 16.5px;
     }
 
-    #button {
-        width: 49px;
+    .search-form {
+        padding-left: 15px;
+    }
+
+    .search-form input{
+        width: 55%;
+        font-size: 20px;
+        border-radius: 0 8px 8px 0;
+    }
+
+    .search-form .search-text {
+        display: none;
+    }
+    .search-form .search-icon {
+        display: flex;
+        background-color: #0065FC;
+        color: white;
+        padding: 0 1px;
+        border-radius: 10px;
+    }
+    .search-form button {
         border-radius: 15px;
-        padding: 15px, 16px, 15px, 16px;
         filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+        margin-left: -4px;
+        height: 45px;
     }
 
-    #button .span {
-        visibility:hidden;
+    .search-result #info {
+        font-size: 15px;
     }
 
-    .input_field {
-        width: 335px;
-        font-size: 17px;
-        border-radius: 0px 10px 10px 0px;
+
+
+    /********** FILTER **********/
+
+    .filters-elements h2 {
+        padding-left: 15px;
+        margin-bottom: -5px;
     }
 
-    .icon-search-bar {
-        width: 50px;
+    .filters-group button {
+        width: 45%;
+        padding-right: 25px;
+    }
+
+    .filters-group .filter-familial{
+        padding-right: 48px;
+    }
+
+    .filters-group {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+
+    .search-result {
+        padding-left: 15px;
+        margin-top: 15px;
+    }
+
+    /********** HEBERGEMENT **********/
+
+    .hebergements-and-populaires section {
+        padding: 10px;
+    }
+
+    .hebergements-and-populaires .hebergements{
+        background-color: white;
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    .hebergement-cards {
+        flex-direction: column;
+        width: 100%;
+      }
+
+    #hébergementàMarseille{
+        font-size: 20px;
+        margin-top: 20px;
+        padding-left: 18px;
+    }
+
+
+    /********** POPULAIRES **********/
+
+    .hebergements-and-populaires .populaires{
+        order: -1;
+        margin: 0;
+        border-radius: 0px;
         padding: 15px;
     }
 
-    .search {
-        display: flex;
-        padding: 5px;
-        color: white;
+    .populaires .populaires-cards {
+        display: block;
     }
 
 
-    /******************** FILTRE ********************/
+    /********** ACTVITY **********/
 
-    .filtres {
+    #ActviteàMarseille{
+        margin-top: 90px;
+    }
+
+    .card-activity-container {
+        display: flex;
         flex-direction: column;
-        width: 335px;
-
     }
-
-    .span_filtre{
-        margin: 20px 0px -15px 7px;
-        font-size: 18px;
-    }
-
-    .element .filtre_B {
-        width: 167px;
-        position: relative;
-        top: -15px;
-        left: 87px;
-        margin-bottom: 20px;
-        border: 2px solid rgba(223, 230, 233);
-        border-radius: 25px;
-        font-size: 17px;
-    }
-
-    .icon {
-        position: relative;
-        left: -10px;
-    }
-
-    .icon-familial, .button-familial {
-        position: relative;
-        left: -25px;
-    }
-
-
-    /********************* HOUSING *********************/
-
-    .housing_container {
-        display: flex;
-        flex-direction: row;
-        max-width: 335px;
-        margin-bottom: 0px;
-    }
-
-    .icon_info {
-        position: relative;
-        top: -20px; left: 18px;
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    #info {
-        position: relative;
-        top: -20px;
-        left: 30px;
-    }
-
-
-
-     /*********************  POPULAIRES *********************/
-
-     .populaires {
-        order: -1;
-        width: 375px;
-        margin-top: 20px;
-        /* position: relative;
-        left: -50px;
-        top: -30px; */
-        border-radius: 0px;
+    
+    .container-activity {
+        flex-direction: column;
+        width: 100%;
       }
 
-     .populaires .populaires-cards {
-        display: block;
-        width: 335px;
-        margin-left: -10px;
+      .card-activity{
+        height: 200px;
+        margin-right: 10px;
+      }
+
+      .card-activity img {
+        height: 72%;
     }
 
-    .section-title {
-        margin: 18px 0px 0px 4px;
-        font-size: 22px;
-    }
-
-
-
-
-    /*********************  HEBERGEMENTS *********************/
-
-    .hebergements {
-        background-color: white;
-        /* position: relative;
-        left: -50px;
-        top: -10px; */
-        width: 375px;
-    }
-    .hebergement-cards {
-        align-items: center;
-        margin-left: -10px;
-    }
-
-    .hebergements #hébergementàMarseille {
-        margin: 10px 0 0 -8px;
-        font-size: 22px;
-    }
-
-    .cards-content {
-        width: 335px;
-    }
-
-    .card-txt img {
-        width: 100%;
-        object-fit: cover;
-    }
-
-
-
-
-    /*********************  ACTIVITY *********************/
-
-    #ActviteàMarseille {
-        font-size: 22px;
-    }
-
-    .container-activity {
-        width: 375px;
-        display: flex;
+    .footer-container{
         flex-direction: column;
-        margin-left: 5px;
     }
 
-    .container-activity .card-activity {
-        width: 335px;
-        height: 270px;
-    }
 
-    .container-activity .card-activity img {
+    /********** FOOTER **********/
+
+    footer {
         width: 100%;
-        height: 80%;
-    }
-    .card-txt h3 {
-        font-size: 16px;
-    }
-
-
-
-     /*********************  FOOTER ******************** */
-
-     footer {
-       width: 375px;
-       font-size: 18px;
-       margin: 10px 0px 0px 0px;
+      }
+     .footer-container {
+        flex-direction: column;
      }
-    .footer {
-        flex-direction: column;
-    }
 
-    .footer .element-footer {
-        width: 263.67px;
-    }
-
-    .footer .element-footer h3 {
-        font-size: 18px;
-    }
-
-    .footer .element-footer p a{
-        font-size: 16px;
+     .element-footer {
+        width: 100%;
+        padding-left: 10px;
     }
 }
