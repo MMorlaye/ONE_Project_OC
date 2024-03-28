@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 .filter, .filter-familial{
-    border: 3px solid lightgrey;
+    border: 2px solid lightgrey;
     border-radius: 30px;
     padding: 10px;
     background-color: #fff;

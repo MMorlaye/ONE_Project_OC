@@ -32,7 +32,7 @@
       border-radius: 20px 20px 0 0;
     }
   
-    .cards-content h3, p, .card-rating-1{
+    .cards-content h3, .card-rating-1{
       margin: 8px;
   }
     

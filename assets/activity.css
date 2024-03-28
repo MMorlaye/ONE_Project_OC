@@ -9,6 +9,12 @@
 .container-activity {
     margin-top: 10px;
     display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-activity a {
+    width: 25%;
 }
 
 .card-activity {
