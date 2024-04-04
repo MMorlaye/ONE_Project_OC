@@ -76,14 +76,14 @@ nav a:hover {
 }
 .search-form i {
     padding: 10px 18px;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
     color: black;
     border-radius: 10px 0 0 10px;
 }
 
 .search-form input {
     width: 120px;
-    border: 1px solid rgba(223, 230, 233,0.6);
+    border: 1px solid #f2f2f2;
     font-size: 14px;
     font-weight: bold;
     padding: 0 20px;
@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 .filter, .filter-familial{
-    border: 2px solid lightgrey;
+    border: 2px solid #f2f2f2;
     border-radius: 30px;
     padding: 10px;
     background-color: #fff;
