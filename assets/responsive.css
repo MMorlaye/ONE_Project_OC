@@ -169,11 +169,11 @@
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
-        padding-left: 15px;
+        justify-content: center;
     }
 
     .search-result {
-        padding-left: 15px;
+        padding: 15px;
         margin-top: 15px;
     }
 
