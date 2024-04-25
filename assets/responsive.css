@@ -3,9 +3,8 @@
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
 
-    /********** HEBERGEMENT **********/
+@media (max-width: 1024px) {
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -15,6 +14,55 @@
         width: 100%;
     }
 
+    .hebergements a {
+        position: relative;
+        top: 10px;
+    }
+
+    /********** POPULAIRES **********/
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .hebergement-cards {
+        grid-template-columns: repeat(auto-fill, minmax(48%, 1fr)); /* Sur les écrans de tablette large (1024px), affiche deux cartes par ligne */
+    }
+
+    .hebergements a {
+        position: relative;
+        top: 10px;
+    }
 
     /********** FILTRE **********/
     .filters-elements {
@@ -190,9 +238,10 @@
     }
 
     .hebergement-cards {
-        flex-direction: column;
-        width: 100%;
-      }
+        display: grid; /* Utilisation de CSS Grid */
+        grid-template-columns: 1fr; /* Une colonne pour chaque élément */
+        gap: 10px; /* Ajout d'un espacement entre les éléments */
+       }
 
     #hébergementàMarseille{
         font-size: 20px;
