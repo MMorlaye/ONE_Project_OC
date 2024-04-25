@@ -4,7 +4,7 @@
 Dans ce projet, une entreprise souhaite créer un site web qui permettent aux usagers des hébergements et des actvités dans la ville de leurs choix. 
 Mon rôle est de est d'intégrer l'interface du site à travers une maquette fourni avec du HTML/CSS tout en s'assurant que le site soit responsive (Desktop, Tablette, Mobile).
 Pour cela j'ai du collaborer avec la CTO et l'UI Designer 
-- Site Déployer : (https://mmorlaye.github.io/ProjetBooki/)
+- Site Déployer : https://mmorlaye.github.io/ProjetBooki/
 
 
 # Compétences : 
